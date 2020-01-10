@@ -1,0 +1,11 @@
+server:
+  port: 8081
+dubbo:
+  application:
+    name: user-controller
+  registry:
+    address: zookeeper://10.0.75.1:2181
+
+
+user-controller:
+  version: 1.0.0
